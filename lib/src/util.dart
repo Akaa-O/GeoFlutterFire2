@@ -208,19 +208,19 @@ class Util {
     else if (km <= 0.0382)
       return 8;
     else if (km <= 0.153)
-      return 7;
+      return 8;
     else if (km <= 1.22)
-      return 6;
+      return 8;
     else if (km <= 4.89)
-      return 5;
+      return 8;
     else if (km <= 39.1)
-      return 4;
+      return 6;
     else if (km <= 156)
-      return 3;
+      return 5;
     else if (km <= 1250)
-      return 2;
+      return 4;
     else
-      return 1;
+      return 2;
   }
 
   static const double MAX_SUPPORTED_RADIUS = 8587;
